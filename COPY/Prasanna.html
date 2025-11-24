@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Kukunuri Prasanna — DevOps Engineer (Resume)</title>
+<style>
+  :root{
+    --bg:#0f1320;
+    --card:#11131a;
+    --accent:#2E8BFF;
+    --muted:#9aa4b2;
+    --text:#e6eef6;
+    --panel:#0b0d12;
+  }
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:900px;margin:28px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0.01) 100%);border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,0.6);}
+  .header{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;padding:18px;border-radius:6px;background:linear-gradient(90deg, #222533, #141722);border:1px solid rgba(255,255,255,0.03);}
+  .name{font-size:28px;font-weight:700;letter-spacing:0.6px;}
+  .title{font-size:12px;color:var(--muted);font-weight:600;}
+  .contacts{font-size:13px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap;justify-content:center;}
+  .contacts a{color:var(--accent);text-decoration:none;}
+  .btn-row{margin-top:10px;}
+  .btn{
+    display:inline-block;padding:8px 14px;border-radius:6px;background:linear-gradient(180deg,var(--accent),#1c6fe6);
+    color:white;font-weight:600;text-decoration:none;border:0;box-shadow:0 4px 14px rgba(45,115,255,0.16);
+  }
+
+  .content{display:grid;grid-template-columns:1fr 340px;gap:22px;margin-top:20px;}
+  @media(max-width:860px){ .content{grid-template-columns:1fr;}}
+  .main{padding-right:6px;}
+  .side{padding-left:6px;}
+
+  h3.section{margin:0 0 8px 0;color:var(--accent);font-size:12px;letter-spacing:1px;}
+  .bar{height:1px;background:linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));margin:8px 0 14px;border-radius:2px;}
+
+  p, li { color:var(--text); font-size:13px; line-height:1.46; margin:6px 0;}
+  ul{margin:8px 0 12px 18px;padding:0;}
+  .muted{color:var(--muted);font-size:12px;margin-top:4px;}
+
+  .skill-cat{margin-bottom:12px;}
+  .skill-cat strong{display:block;color:#fff;margin-bottom:6px;font-size:13px;}
+  .skill-cat span{color:var(--muted);font-size:13px;}
+
+  .job{margin-bottom:10px;}
+  .job .job-title{font-weight:700;color:#fff;font-size:14px;}
+  .job .meta{color:var(--muted);font-size:12px;margin-bottom:8px;}
+
+  .project{margin-bottom:8px;}
+
+  .card{background:var(--card);padding:14px;border-radius:8px;border:1px solid rgba(255,255,255,0.02);}
+  .edu{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));padding:12px;border-radius:6px;border:1px solid rgba(255,255,255,0.02);}
+
+  .footer{margin-top:18px;text-align:center;color:var(--muted);font-size:12px;}
+
+  /* make links visible in print */
+  a[href]::after{content:" (" attr(href) ")";font-size:10px;color:var(--muted);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="name">KUKUNURI PRASANNA</div>
+      <div class="title">DevOps Engineer | AWS | Terraform | Jenkins | CI/CD</div>
+      <div class="contacts">
+        <div>📍 Eluru, Andhra Pradesh</div>
+        <div>✉️ <a href="mailto:prasannakukunuri35@gmail.com">prasannakukunuri35@gmail.com</a></div>
+        <div>📞 <a href="tel:+918328213276">+91 8328213276</a></div>
+      </div>
+      <div class="btn-row">
+        <!-- Download button uses download attribute; put PDF in same folder to enable download -->
+        <a class="btn" href="Kukunuri_Prasanna_Resume.pdf" download>📄 Download Resume</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <!-- MAIN COLUMN -->
+      <div class="main">
+        <div class="card">
+          <h3 class="section">PROFESSIONAL SUMMARY</h3>
+          <div class="bar"></div>
+          <p>
+            Results-driven <strong>DevOps Engineer</strong> with <strong>2+ years of professional experience</strong> in cloud infrastructure automation,
+            CI/CD pipelines, and configuration management. Proficient with <strong>AWS, Terraform, Jenkins, Docker,</strong> and <strong>Ansible</strong>.
+            Experienced in implementing Infrastructure as Code (IaC), container-based deployments, and monitoring/alerting to improve reliability
+            and release velocity. Currently pursuing an <strong>MBA (2025) from Andhra University</strong>, combining technical and business perspectives
+            to deliver scalable production systems.
+          </p>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3 class="section">PROFESSIONAL EXPERIENCE</h3>
+          <div class="bar"></div>
+
+          <div class="job">
+            <div class="job-title">Amazon — DevOps Engineer</div>
+            <div class="meta">Remote &nbsp; | &nbsp; May 2024 – Present</div>
+            <ul>
+              <li>Manage and automate AWS infrastructure using <strong>Terraform</strong> modules (VPC, subnets, EC2, SGs, ALB, Route53) to provide reproducible, audited environments.</li>
+              <li>Design and maintain <strong>CI/CD pipelines</strong> with Jenkins and GitHub Actions delivering automated build, test, and multi-environment deployments for microservices.</li>
+              <li>Containerize applications with <strong>Docker</strong>, integrate image builds into CI, and collaborate on orchestration patterns for reliability.</li>
+              <li>Author and run <strong>Ansible</strong> playbooks & roles for provisioning, configuration drift remediation, and release steps across environments.</li>
+              <li>Implement monitoring and alerting with <strong>CloudWatch</strong>, Prometheus and Grafana; create dashboards, alarms and runbooks for on-call response.</li>
+              <li>Delivered RoboShop automation improvements — reduced manual provisioning by ≈40% and lowered average deployment time by ≈45% using IaC and CI/CD.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-title">WNS Global Services — Operations Associate</div>
+            <div class="meta">Vizag, AP &nbsp; | &nbsp; Jun 2023 – Apr 2024</div>
+            <ul>
+              <li>Supported operational workflows and automation tasks while transitioning into DevOps responsibilities.</li>
+              <li>Assisted with EC2 instance verification, IAM access troubleshooting and routine maintenance via console and scripts.</li>
+              <li>Produced operational reports and small automation scripts that reduced repetitive work and improved SLA adherence.</li>
+              <li>Collaborated with technical teams to coordinate deployments, incident triage and knowledge transfer to production teams.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3 class="section">PROJECT — RoboShop Infrastructure Automation</h3>
+          <div class="bar"></div>
+          <div class="project">
+            <p><strong>Technologies:</strong> AWS, Terraform, Jenkins, Ansible, GitHub, Docker, Prometheus, Grafana</p>
+            <ul>
+              <li>Designed automated infrastructure for a multi-tier retail application using Terraform modules for VPC, networking, EC2 tiers, ALB and Route53.</li>
+              <li>Implemented Jenkins pipelines for build/test and blue/green deployment, integrated image build & registry steps into pipelines.</li>
+              <li>Wrote Ansible roles for package installs, environment configuration, service management and safe rollbacks.</li>
+              <li>Configured monitoring stack (Prometheus exporters + Grafana dashboards) and CloudWatch alarms with SNS for critical notifications.</li>
+              <li>Prepared runbooks, performed DR validation and coordinated handover with SRE and dev teams.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- end main -->
+
+      <!-- SIDE COLUMN -->
+      <div class="side">
+        <div class="card">
+          <h3 class="section">TECHNICAL SKILLS</h3>
+          <div class="bar"></div>
+
+          <div class="skill-cat">
+            <strong>Cloud</strong>
+            <span>AWS — EC2, S3, IAM, VPC, Route53, CloudWatch, EKS </span>
+          </div>
+
+          <div class="skill-cat">
+            <strong>DevOps & CI/CD</strong>
+            <span>Jenkins, GitHub Actions, Docker, Kubernetes </span>
+          </div>
+
+          <div class="skill-cat">
+            <strong>Infrastructure as Code</strong>
+            <span>Terraform (modules, state backends, workspaces)</span>
+          </div>
+
+          <div class="skill-cat">
+            <strong>Config Management</strong>
+            <span>Ansible playbooks & roles</span>
+          </div>
+
+          <div class="skill-cat">
+            <strong>Monitoring</strong>
+            <span>CloudWatch, Prometheus, Grafana</span>
+          </div>
+
+          <div class="skill-cat">
+            <strong>Version Control / Scripting</strong>
+            <span>Git, GitHub, Shell scripting, Python</span>
+          </div>
+
+          <div class="skill-cat">
+            <strong>OS</strong>
+            <span>Linux (RHEL, Ubuntu), Windows Server</span>
+          </div>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3 class="section">CERTIFICATIONS</h3>
+          <div class="bar"></div>
+          <div class="edu">
+            <p style="margin:6px 0;"><strong>AWS Cloud Practitioner</strong> — In Progress</p>
+          </div>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3 class="section">EDUCATION</h3>
+          <div class="bar"></div>
+          <div class="edu">
+            <p style="margin:6px 0;"><strong>MBA (Pursuing – 2025)</strong></p>
+            <p class="muted" style="margin:4px 0 0 0;">Andhra University</p>
+			<p style="margin:6px 0;"><strong>Bachelor's Degree in Science (completed – 2022)</strong></p>
+            <p class="muted" style="margin:4px 0 0 0;">Adikavi Nannya University</p>
+          </div>
+        </div>
+
+      </div><!-- end side -->
+    </div><!-- end content -->
+
+    <div style="height:18px;"></div>
+
+    <div class="card">
+      <h3 class="section">PROFESSIONAL HIGHLIGHTS</h3>
+      <div class="bar"></div>
+      <ul>
+        <li>Reduced manual provisioning time by ≈ <strong>40%</strong> through Terraform + Ansible automation in pilot environments.</li>
+        <li>Improved deployment reliability by implementing pipeline gating and automated rollback on failed health checks.</li>
+        <li>Designed monitoring alerts that decreased mean time to detect (MTTD) for critical incidents via proactive notifications.</li>
+      </ul>
+    </div>
+
+    <div style="height:12px;"></div>
+
+    <div class="card">
+      <h3 class="section">TOOLS & ENVIRONMENT (DETAILED)</h3>
+      <div class="bar"></div>
+      <p class="muted">Terraform (state backend, modules, workspaces), Jenkins (declarative pipelines), GitHub Actions, Docker & registries, Ansible roles/vars, Prometheus/Grafana, AWS CloudWatch, S3 lifecycle policies, Route53, IAM policies, ALB/NLB, Linux shell scripting, basic Python automation.</p>
+    </div>
+
+    <div class="footer">
+      © Kukunuri Prasanna · <a href="https://www.linkedin.com/in/prasannakukunuri/">LinkedIn</a> · <a href="https://github.com/kukunuri-prasanna17">GitHub</a>
+    </div>
+
+  </div><!-- wrap -->
+</body>
+</html>
