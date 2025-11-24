@@ -1,3 +1,5 @@
 FROM nginx
-RUN rm -rf /usr/share/nginx/html/index.html
-COPY Prasanna.html /usr/share/nginx/index.html 
+
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY Prasanna.html /usr/share/nginx/html/index.html
