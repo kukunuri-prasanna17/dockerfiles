@@ -1,0 +1,5 @@
+FROM almalinux
+RUN cd /app
+WORKDIR /app
+RUN pwd
+CMD ["sleep","100"]
