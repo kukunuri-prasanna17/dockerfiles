@@ -1,6 +1,6 @@
 FROM almalinux:9
-ENV course="docker"
-    trainer="Prasanna"
+ENV course="docker" \
+    trainer="Prasanna" \
     duration="60 mins"
 
 CMD [ "sleep", "20"]
