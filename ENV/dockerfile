@@ -3,4 +3,4 @@ ENV course="docker" \
     trainer="Prasanna" \
     duration="60 mins"
 
-CMD [ "sleep", "20"]
+CMD [ "sleep", "1000"]
