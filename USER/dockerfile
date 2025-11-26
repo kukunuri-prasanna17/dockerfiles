@@ -1,0 +1,6 @@
+FROM almalinux:9
+RUN dnf install nginx
+RUN useradd prasanna
+
+USER prasanna
+CMD ["nginx", "-g", "daemon off;"]
