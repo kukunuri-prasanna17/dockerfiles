@@ -1,7 +1,7 @@
 ARG version
 FROM almalinux:${version:-9}
-ARG course=docker \
-    training=devops \
+ARG course= "docker" \
+    training= "devops" \
 RUN echo "course: ${course}", "traning: ${training}"
 
 CMD [ "sleep", "100"]
