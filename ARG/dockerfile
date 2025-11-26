@@ -4,6 +4,9 @@ FROM almalinux:${version:-9}
 ARG course="docker"
 ARG training="devops"
 
+ENV course=${course}
+ENV training=${training}
+
 RUN echo "course: ${course}, training: ${training}"
 
 CMD ["sleep","100"]
