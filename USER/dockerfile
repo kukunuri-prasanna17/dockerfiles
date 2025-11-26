@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 RUN useradd prasanna
 
 USER prasanna
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["sleep", "100"]
